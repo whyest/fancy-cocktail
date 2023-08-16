@@ -1,12 +1,17 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 const Wrapper = styled.div`
   header {
     text-align: center;
     margin-bottom: 3rem;
-    .btn {
-      margin-bottom: 1rem;
+    h3 {
+      font-weight: 700;
     }
+  }
+  footer {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
   }
   .img {
     border-radius: var(--borderRadius);
@@ -43,6 +48,6 @@ const Wrapper = styled.div`
       padding-top: 0;
     }
   }
-`;
+`
 
-export default Wrapper;
+export default Wrapper

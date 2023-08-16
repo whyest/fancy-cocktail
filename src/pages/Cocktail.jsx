@@ -50,9 +50,6 @@ const Cocktail = () => {
   return (
     <Wrapper>
       <header>
-        <Link to='/' className='btn'>
-          back home
-        </Link>
         <h3>{name}</h3>
       </header>
       <div className='drink'>
@@ -85,6 +82,11 @@ const Cocktail = () => {
           </p>
         </div>
       </div>
+      <footer>
+        <Link to='/' className='btn'>
+          back home
+        </Link>
+      </footer>
     </Wrapper>
   )
 }
